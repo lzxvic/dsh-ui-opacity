@@ -1,51 +1,54 @@
-{
-  "name": "dsh-menu-opacity",
-  "version": "0.2.0",
-  "description": "Adjustable opacity for DeepSeek Harness popup menus and the session header.",
-  "license": "MIT",
-  "author": "lzxvic",
-  "type": "module",
-  "main": "lib/index.js",
-  "exports": {
-    ".": "./lib/index.js",
-    "./client": "./lib/client.js",
-    "./cordis.patch.yml": "./cordis.patch.yml",
-    "./package.json": "./package.json"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lzxvic/dsh-menu-opacity.git"
-  },
-  "homepage": "https://github.com/lzxvic/dsh-menu-opacity#readme",
-  "bugs": {
-    "url": "https://github.com/lzxvic/dsh-menu-opacity/issues"
-  },
-  "keywords": [
-    "dsh",
-    "dsh-plugin",
-    "deepseek-harness",
-    "ui",
-    "menu",
-    "opacity",
-    "header"
-  ],
-  "engines": {
-    "node": ">=20"
-  },
-  "dsh": {
-    "bundle": {
-      "patch": "./cordis.patch.yml"
-    },
-    "client": {
-      "platform": "web",
-      "inject": []
-    }
-  },
-  "files": [
-    "lib",
-    "cordis.patch.yml",
-    "dsh.plugin.json",
-    "README.md",
-    "LICENSE"
-  ]
+﻿{
+    "name":  "dsh-menu-opacity",
+    "version":  "0.2.1",
+    "description":  "Adjustable opacity for DeepSeek Harness popup menus and the session header.",
+    "license":  "MIT",
+    "author":  "lzxvic",
+    "type":  "module",
+    "main":  "lib/index.js",
+    "exports":  {
+                    ".":  "./lib/index.js",
+                    "./client":  "./lib/client.js",
+                    "./cordis.patch.yml":  "./cordis.patch.yml",
+                    "./package.json":  "./package.json"
+                },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/lzxvic/dsh-menu-opacity.git"
+                   },
+    "homepage":  "https://github.com/lzxvic/dsh-menu-opacity#readme",
+    "bugs":  {
+                 "url":  "https://github.com/lzxvic/dsh-menu-opacity/issues"
+             },
+    "keywords":  [
+                     "dsh",
+                     "dsh-plugin",
+                     "deepseek-harness",
+                     "ui",
+                     "menu",
+                     "opacity",
+                     "header"
+                 ],
+    "engines":  {
+                    "node":  "\u003e=20"
+                },
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           },
+                "client":  {
+                               "platform":  "web",
+                               "inject":  [
+
+                                          ]
+                           }
+            },
+    "files":  [
+                  "lib",
+                  "cordis.patch.yml",
+                  "dsh.plugin.json",
+                  "README.md",
+                  "LICENSE"
+              ]
 }
+

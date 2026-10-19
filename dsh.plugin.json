@@ -1,13 +1,18 @@
-{
-  "id": "dsh-menu-opacity",
-  "version": "0.2.0",
-  "main": "lib/index.js",
-  "description": "Adjustable opacity for DeepSeek Harness popup menus and the session header.",
-  "engines": {
-    "dsh": ">=0.2.0-rc.2 <0.3.0-0"
-  },
-  "contributes": {
-    "tools": [],
-    "skills": []
-  }
+﻿{
+    "id":  "dsh-menu-opacity",
+    "version":  "0.2.1",
+    "main":  "lib/index.js",
+    "description":  "Adjustable opacity for DeepSeek Harness popup menus and the session header.",
+    "engines":  {
+                    "dsh":  "\u003e=0.2.0-rc.2 \u003c0.3.0-0"
+                },
+    "contributes":  {
+                        "tools":  [
+
+                                  ],
+                        "skills":  [
+
+                                   ]
+                    }
 }
+
