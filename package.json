@@ -1,9 +1,9 @@
 {
   "name": "dsh-menu-opacity",
-  "version": "0.1.0",
-  "description": "Adjustable opacity for DeepSeek Harness popup menus (composer +, model picker, permission, session menus).",
+  "version": "0.2.0",
+  "description": "Adjustable opacity for DeepSeek Harness popup menus and the session header.",
   "license": "MIT",
-  "author": "linzexi",
+  "author": "lzxvic",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -14,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/linzexi/dsh-menu-opacity.git"
+    "url": "git+https://github.com/lzxvic/dsh-menu-opacity.git"
   },
-  "homepage": "https://github.com/linzexi/dsh-menu-opacity#readme",
+  "homepage": "https://github.com/lzxvic/dsh-menu-opacity#readme",
   "bugs": {
-    "url": "https://github.com/linzexi/dsh-menu-opacity/issues"
+    "url": "https://github.com/lzxvic/dsh-menu-opacity/issues"
   },
   "keywords": [
     "dsh",
@@ -26,7 +26,8 @@
     "deepseek-harness",
     "ui",
     "menu",
-    "opacity"
+    "opacity",
+    "header"
   ],
   "engines": {
     "node": ">=20"
