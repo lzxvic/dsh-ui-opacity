@@ -1,6 +1,6 @@
 {
     "name":  "dsh-ui-opacity",
-    "version":  "0.2.1",
+    "version":  "0.3.0",
     "description":  "Adjustable opacity for DeepSeek Harness popup menus and the session header.",
     "license":  "MIT",
     "author":  "lzxvic",
@@ -48,6 +48,7 @@
                   "cordis.patch.yml",
                   "dsh.plugin.json",
                   "README.md",
+        "CHANGELOG.md",
                   "LICENSE"
               ]
 }
