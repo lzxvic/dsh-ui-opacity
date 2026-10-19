@@ -1,5 +1,5 @@
-﻿{
-    "name":  "dsh-menu-opacity",
+{
+    "name":  "dsh-ui-opacity",
     "version":  "0.2.1",
     "description":  "Adjustable opacity for DeepSeek Harness popup menus and the session header.",
     "license":  "MIT",
@@ -14,11 +14,11 @@
                 },
     "repository":  {
                        "type":  "git",
-                       "url":  "git+https://github.com/lzxvic/dsh-menu-opacity.git"
+                       "url":  "git+https://github.com/lzxvic/dsh-ui-opacity.git"
                    },
-    "homepage":  "https://github.com/lzxvic/dsh-menu-opacity#readme",
+    "homepage":  "https://github.com/lzxvic/dsh-ui-opacity#readme",
     "bugs":  {
-                 "url":  "https://github.com/lzxvic/dsh-menu-opacity/issues"
+                 "url":  "https://github.com/lzxvic/dsh-ui-opacity/issues"
              },
     "keywords":  [
                      "dsh",

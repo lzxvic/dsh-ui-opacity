@@ -1,5 +1,5 @@
-# dsh-menu-opacity bundle patch: mount the no-op host entry so the web profile
+# dsh-ui-opacity bundle patch: mount the no-op host entry so the web profile
 # discovers and serves the package's browser client bundle.
 - insert:
-    - id: dsh-menu-opacity
-      name: dsh-menu-opacity
+    - id: dsh-ui-opacity
+      name: dsh-ui-opacity

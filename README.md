@@ -1,4 +1,4 @@
-# dsh-menu-opacity
+# dsh-ui-opacity
 
 给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）的**浮层菜单**和**会话顶栏**加透明度控制。
 
@@ -37,13 +37,13 @@ DSH 自带的浮层菜单材质是半透明的（浅色 58% / 深色 45%），�
 ### dsh web
 
 ```bash
-dsh plugin --profile <profile> add -w /absolute/path/to/dsh-menu-opacity
+dsh plugin --profile <profile> add -w /absolute/path/to/dsh-ui-opacity
 ```
 
 ### 从 Git 安装
 
 ```bash
-dsh plugin --profile <profile> add github:lzxvic/dsh-menu-opacity
+dsh plugin --profile <profile> add github:lzxvic/dsh-ui-opacity
 ```
 
 ## 使用
@@ -100,17 +100,17 @@ html body :has(> [class*="_headerLeading"]):has([class*="_headerActions"]):hover
 ## 开发
 
 ```bash
-git clone https://github.com/lzxvic/dsh-menu-opacity.git
-cd dsh-menu-opacity
+git clone https://github.com/lzxvic/dsh-ui-opacity.git
+cd dsh-ui-opacity
 
 # 链接到 profile（桌面版请在应用内安装）
 dsh plugin --profile <profile> add -w "$PWD"
 ```
 
-改 `lib/client.js` 后刷新客户端即可。设置分区通过 `slots.inject('settings.section')` 注册，样式通过一条 `<style data-dsh-menu-opacity>` 注入。
+改 `lib/client.js` 后刷新客户端即可。设置分区通过 `slots.inject('settings.section')` 注册，样式通过一条 `<style data-dsh-ui-opacity>` 注入。
 
 ```
-dsh-menu-opacity/
+dsh-ui-opacity/
 ├─ package.json
 ├─ cordis.patch.yml
 ├─ dsh.plugin.json
