@@ -1,0 +1,13 @@
+{
+  "id": "dsh-menu-opacity",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "description": "Adjustable opacity for DeepSeek Harness popup menus (composer +, model picker, permission, session menus).",
+  "engines": {
+    "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+  },
+  "contributes": {
+    "tools": [],
+    "skills": []
+  }
+}
